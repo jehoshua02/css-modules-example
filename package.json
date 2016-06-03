@@ -1,0 +1,23 @@
+{
+  "name": "css-modules-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jehoshua02/css-modules-example.git"
+  },
+  "author": "Joshua Stoutenburg <jehoshua02@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jehoshua02/css-modules-example/issues"
+  },
+  "homepage": "https://github.com/jehoshua02/css-modules-example#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "webpack": "^1.13.1"
+  }
+}
