@@ -18,6 +18,7 @@
   "homepage": "https://github.com/jehoshua02/css-modules-example#readme",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.19.0",
     "webpack": "^1.13.1"
   }
 }

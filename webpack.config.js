@@ -1,4 +1,5 @@
 var path = require('path');
+var HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -7,5 +8,8 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, './build'),
-  }
+  },
+  plugins: [
+    new HtmlPlugin()
+  ]
 }
