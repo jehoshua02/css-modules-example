@@ -9,6 +9,14 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, './build'),
   },
+  module: {
+    loaders: [
+      {test: /\.css$/, loader: 'css?modules'}
+    ]
+  },
+  resolve: {
+    extensions: ['', '.js', '.css']
+  },
   plugins: [
     new HtmlPlugin()
   ]
