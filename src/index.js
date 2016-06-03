@@ -1,6 +1,4 @@
-var styles = require('./button').locals;
+var styles = require('./button');
 
 console.log(styles);
 console.log(styles.primaryButton);
-console.log(styles.locals);
-console.log(styles.locals.primaryButton);
